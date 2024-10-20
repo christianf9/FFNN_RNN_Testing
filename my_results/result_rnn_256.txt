@@ -1,0 +1,25 @@
+Trial: 1
+Testing accuracy: 0.43
+Macro F1 Score: 0.39859494884307534
+Macro Precision: 0.4160532171031372
+Macro Recall: 0.43105699724191926
+Trial: 2
+Testing accuracy: 0.445
+Macro F1 Score: 0.4153683696313687
+Macro Precision: 0.44080052709386325
+Macro Recall: 0.4409909447692244
+Trial: 3
+Testing accuracy: 0.425
+Macro F1 Score: 0.3831719885642867
+Macro Precision: 0.3885551112676766
+Macro Recall: 0.42515970713527534
+Trial: 4
+Testing accuracy: 0.395
+Macro F1 Score: 0.3447062037272578
+Macro Precision: 0.3728225159923797
+Macro Recall: 0.3905088964832408
+Trial: 5
+Testing accuracy: 0.44625
+Macro F1 Score: 0.42402475423493824
+Macro Precision: 0.4363497382710585
+Macro Recall: 0.44841868816139874

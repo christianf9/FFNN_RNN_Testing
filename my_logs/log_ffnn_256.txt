@@ -1,0 +1,205 @@
+Trial: 1
+Epoch: 0
+Loss: 1.3420982360839844
+Training accuracy: 0.47625
+Validation accuracy: 0.47625
+Epoch: 1
+Loss: 1.145492672920227
+Training accuracy: 0.46375
+Validation accuracy: 0.46375
+Epoch: 2
+Loss: 1.0542038679122925
+Training accuracy: 0.50125
+Validation accuracy: 0.50125
+Epoch: 3
+Loss: 0.9606714844703674
+Training accuracy: 0.4875
+Validation accuracy: 0.4875
+Epoch: 4
+Loss: 0.9038385152816772
+Training accuracy: 0.5
+Validation accuracy: 0.5
+Epoch: 5
+Loss: 0.8443464636802673
+Training accuracy: 0.49625
+Validation accuracy: 0.49625
+Epoch: 6
+Loss: 0.7560564875602722
+Training accuracy: 0.48375
+Validation accuracy: 0.48375
+Epoch: 7
+Loss: 0.7273246049880981
+Training accuracy: 0.4875
+Validation accuracy: 0.4875
+Epoch: 8
+Loss: 0.6356154680252075
+Training accuracy: 0.45125
+Validation accuracy: 0.45125
+Epoch: 9
+Loss: 0.5786305069923401
+Training accuracy: 0.4775
+Validation accuracy: 0.4775
+Trial: 2
+Epoch: 0
+Loss: 1.3477184772491455
+Training accuracy: 0.44625
+Validation accuracy: 0.44625
+Epoch: 1
+Loss: 1.136941909790039
+Training accuracy: 0.495
+Validation accuracy: 0.495
+Epoch: 2
+Loss: 1.052927017211914
+Training accuracy: 0.47875
+Validation accuracy: 0.47875
+Epoch: 3
+Loss: 0.9710114002227783
+Training accuracy: 0.485
+Validation accuracy: 0.485
+Epoch: 4
+Loss: 0.909098744392395
+Training accuracy: 0.5125
+Validation accuracy: 0.5125
+Epoch: 5
+Loss: 0.8324702382087708
+Training accuracy: 0.52625
+Validation accuracy: 0.52625
+Epoch: 6
+Loss: 0.7530526518821716
+Training accuracy: 0.48875
+Validation accuracy: 0.48875
+Epoch: 7
+Loss: 0.7202723026275635
+Training accuracy: 0.49125
+Validation accuracy: 0.49125
+Epoch: 8
+Loss: 0.6123318672180176
+Training accuracy: 0.50875
+Validation accuracy: 0.50875
+Epoch: 9
+Loss: 0.5552886128425598
+Training accuracy: 0.4775
+Validation accuracy: 0.4775
+Trial: 3
+Epoch: 0
+Loss: 1.3512576818466187
+Training accuracy: 0.4875
+Validation accuracy: 0.4875
+Epoch: 1
+Loss: 1.1478334665298462
+Training accuracy: 0.48625
+Validation accuracy: 0.48625
+Epoch: 2
+Loss: 1.0510766506195068
+Training accuracy: 0.4875
+Validation accuracy: 0.4875
+Epoch: 3
+Loss: 0.9836086630821228
+Training accuracy: 0.51375
+Validation accuracy: 0.51375
+Epoch: 4
+Loss: 0.900321900844574
+Training accuracy: 0.49
+Validation accuracy: 0.49
+Epoch: 5
+Loss: 0.8455032706260681
+Training accuracy: 0.48875
+Validation accuracy: 0.48875
+Epoch: 6
+Loss: 0.7758679986000061
+Training accuracy: 0.4875
+Validation accuracy: 0.4875
+Epoch: 7
+Loss: 0.7283092141151428
+Training accuracy: 0.47625
+Validation accuracy: 0.47625
+Epoch: 8
+Loss: 0.6503812074661255
+Training accuracy: 0.5025
+Validation accuracy: 0.5025
+Epoch: 9
+Loss: 0.5925136208534241
+Training accuracy: 0.465
+Validation accuracy: 0.465
+Trial: 4
+Epoch: 0
+Loss: 1.3410812616348267
+Training accuracy: 0.45
+Validation accuracy: 0.45
+Epoch: 1
+Loss: 1.1407439708709717
+Training accuracy: 0.47375
+Validation accuracy: 0.47375
+Epoch: 2
+Loss: 1.0487953424453735
+Training accuracy: 0.47
+Validation accuracy: 0.47
+Epoch: 3
+Loss: 0.9852526783943176
+Training accuracy: 0.51375
+Validation accuracy: 0.51375
+Epoch: 4
+Loss: 0.9031891226768494
+Training accuracy: 0.51375
+Validation accuracy: 0.51375
+Epoch: 5
+Loss: 0.8336596488952637
+Training accuracy: 0.5075
+Validation accuracy: 0.5075
+Epoch: 6
+Loss: 0.7654938101768494
+Training accuracy: 0.47625
+Validation accuracy: 0.47625
+Epoch: 7
+Loss: 0.708382785320282
+Training accuracy: 0.4675
+Validation accuracy: 0.4675
+Epoch: 8
+Loss: 0.6416206955909729
+Training accuracy: 0.47
+Validation accuracy: 0.47
+Epoch: 9
+Loss: 0.5582032799720764
+Training accuracy: 0.495
+Validation accuracy: 0.495
+Trial: 5
+Epoch: 0
+Loss: 1.3480730056762695
+Training accuracy: 0.47125
+Validation accuracy: 0.47125
+Epoch: 1
+Loss: 1.1522800922393799
+Training accuracy: 0.47
+Validation accuracy: 0.47
+Epoch: 2
+Loss: 1.0551607608795166
+Training accuracy: 0.4675
+Validation accuracy: 0.4675
+Epoch: 3
+Loss: 0.9877884984016418
+Training accuracy: 0.49875
+Validation accuracy: 0.49875
+Epoch: 4
+Loss: 0.9043357372283936
+Training accuracy: 0.49625
+Validation accuracy: 0.49625
+Epoch: 5
+Loss: 0.851310670375824
+Training accuracy: 0.5125
+Validation accuracy: 0.5125
+Epoch: 6
+Loss: 0.7903447151184082
+Training accuracy: 0.49375
+Validation accuracy: 0.49375
+Epoch: 7
+Loss: 0.7350608110427856
+Training accuracy: 0.475
+Validation accuracy: 0.475
+Epoch: 8
+Loss: 0.6500440239906311
+Training accuracy: 0.46875
+Validation accuracy: 0.46875
+Epoch: 9
+Loss: 0.5724900960922241
+Training accuracy: 0.5025
+Validation accuracy: 0.5025
