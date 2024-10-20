@@ -137,3 +137,4 @@ Data_Embedding.zip
 /saved_models/
 /vectorized_representations/
 /Data_Embedding/*
+!/Data_Embedding/
