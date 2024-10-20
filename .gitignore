@@ -128,6 +128,7 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+word_embedding.pkl
 training.json
 validation.json
 test.json
@@ -135,3 +136,4 @@ Data_Embedding.zip
 
 /saved_models/
 /vectorized_representations/
+/Data_Embedding/*
