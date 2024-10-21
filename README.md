@@ -14,7 +14,6 @@ Need [Anaconda](https://www.anaconda.com/products/distribution) or [Miniconda](h
 ### Create and Activate the Conda Environment
 
 #### For CPU Usage Only:
-Run the following command in the root directory of the project:
 ```bash
 conda create --name the_env_name python=3.8
 conda activate the_env_name
@@ -22,7 +21,6 @@ pip install -r requirements.txt
 ```
 
 #### Environment Used for Testing on a GPU with CUDA Version 12.6:
-Run the following command in the root directory of the project:
 ```bash
 conda env create -f environment.yml --name the_env_name
 conda activate the_env_name
