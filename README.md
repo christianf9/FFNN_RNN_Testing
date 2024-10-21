@@ -9,6 +9,7 @@ This repo contains my code for an assignment in CS 6375 Machine Learning. The ma
 - **run.sh**: Shell script for running trials for both FFNN and RNN
 - **split_data.py**: Python script to improve old data splits for a better distribution of classes
 - **new_data_splits/**: Contains the new data splits that I used for testing
+- **coverage_analysis**: Python script to calculate the coverage of the vocab from the training data for the validation and testing splits
 - **my_logs/**: Contains the log files for my trial runs
 - **my_results/**: Contains the result files for my trial runs
 - **environment.yml**: YAML file to setup conda enviornment that I used
