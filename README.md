@@ -16,7 +16,7 @@ This repo contains my code for an assignment in CS 6375 Machine Learning. The ma
 - **Data_Embedding.zip**: Contains word embeddings for use with the RNN models
 
 ## Results and Logs
-My results and logs for my trial runs can be seen in my_results and my_logs folders, respectively. To evaluate both the feedforward neural networks and the recurrent neural networks, I varied the hidden dimension through five different hidden dimension sizes: 16, 32, 64, 128, and 256. I trained each model for five trials, with 10 epochs per trial, and a mini-batch size of 16. For each trial, I set the random seed to 41 plus the trial number starting at trial 1 for PYthon’s built-in random number generator and PyTorch’s random number generator. This ensures reproducibility and varies the weight initializations of the models and shuffling of the training split to eliminate variability due to randomness and get more reliable performance estimates.
+My results and logs for my trial runs can be seen in my_results and my_logs folders, respectively. To evaluate both the feedforward neural networks and the recurrent neural networks, I varied the hidden dimension through five different hidden dimension sizes: 16, 32, 64, 128, and 256. I trained each model for five trials, with 10 epochs per trial, and a mini-batch size of 16. For each trial, I set the random seed to 41 plus the trial number starting at trial 1 for Python’s built-in random number generator and PyTorch’s random number generator. This ensures reproducibility and varies the weight initializations of the models and shuffling of the training split to eliminate variability due to randomness and get more reliable performance estimates.
 
 ## Getting Started
 
