@@ -20,7 +20,7 @@ My results and logs for my trial runs can be seen in my_results and my_logs fold
 
 ## Getting Started
 
-***FIRST EXTRACT "Data_Embedding.zip"*** so the RNN model has access to the word embeddings. Make sure that after extraction there is a file structure "./Data_Embedding/word_embedding.pkl"
+***FIRST EXTRACT "Data_Embedding.zip"*** so the RNN model has access to the word embeddings. Make sure that after extraction there is a file structure "./Data_Embedding/word_embedding.pkl".
 
 ### Preqreuisites
 Need [Anaconda](https://www.anaconda.com/products/distribution) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html) installed
