@@ -9,7 +9,8 @@ This repo contains my code for an assignment in CS 6375 Machine Learning. The ma
 - **run.sh**: Shell script for running trials for both FFNN and RNN
 - **split_data.py**: Python script to improve old data splits for a better distribution of classes
 - **new_data_splits/**: Contains the new data splits that I used for testing
-- **coverage_analysis**: Python script to calculate the coverage of the vocab from the training data for the validation and testing splits
+- **coverage_analysis_bow.py**: Python script to calculate the coverage of the vocab from the training data for the validation and testing splits for the bag of word approach
+- **coverage_analysis_pretrained.py**: Python script to calculate the coverage of the vocab from the training data for the validation and testing splits for the pretrained word embeddings approach
 - **my_logs/**: Contains the log files for my trial runs
 - **my_results/**: Contains the result files for my trial runs
 - **environment.yml**: YAML file to setup conda enviornment that I used
@@ -45,11 +46,11 @@ conda activate the_env_name
 
 **FFNN**
 ```bash
-python rnn.py --hidden_dim 32 --epochs 10 --train_data new_training.json --val_data new_validation.json --test_data new_test.json
+python ffnn.py --hidden_dim 32 --epochs 10 --train_data new_data_splits/new_training.json --val_data new_data_splits/new_validation.json --test_data new_data_splits/new_test.json
 ```
 **RNN**
 ```bash
-python rnn.py --hidden_dim 32 --epochs 10 --train_data new_training.json --val_data new_validation.json --test_data new_test.json
+python rnn.py --hidden_dim 32 --epochs 10 --train_data new_data_splits/new_training.json --val_data new_data_splits/new_validation.json --test_data new_data_splits/new_test.json
 ```
 
 ### Run Trials
@@ -57,4 +58,39 @@ Run the following command in the root directory of the project to run the trials
 ```bash
 bash run.sh
 ```
-
+The logs during training will be stored in a file "./logs/log_modelName_hiddenDim.txt" formatted as:
+```bash
+Trial: 1
+Epoch: 0
+Loss: 1.3931065797805786
+Training accuracy: 0.48625
+Validation accuracy: 0.48625
+Epoch: 1
+Loss: 1.1995344161987305
+Training accuracy: 0.4825
+Validation accuracy: 0.4825
+Epoch: 2
+Loss: 1.1451973915100098
+Training accuracy: 0.50125
+Validation accuracy: 0.50125
+...
+```
+The results after training will be stored in a file "./results/result_modelName_hiddenDim.txt" formated as:
+```bash
+Trial: 1
+Testing accuracy: 0.54125
+Macro F1 Score: 0.5348826602279703
+Macro Precision: 0.5350758918500853
+Macro Recall: 0.5394086349213603
+Trial: 2
+Testing accuracy: 0.51625
+Macro F1 Score: 0.51252144415715
+Macro Precision: 0.518847441579226
+Macro Recall: 0.5161641311362265
+Trial: 3
+Testing accuracy: 0.52625
+Macro F1 Score: 0.5320839717561386
+Macro Precision: 0.5501887389320821
+Macro Recall: 0.5265503017043895
+...
+```

@@ -1,7 +1,7 @@
 import json
 import string
 
-### CODE FOR CALCULATING COVERAGE OF THE VOCABULARY FOR VALIDATION AND TESTING SPLITS ###
+### CODE FOR CALCULATING COVERAGE OF THE VOCABULARY FOR VALIDATION AND TESTING SPLITS FOR BAG OF WORDS APPROACH ###
 
 # data splits' paths
 training_data_path = "new_data_splits/new_training.json"

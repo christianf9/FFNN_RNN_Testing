@@ -137,3 +137,6 @@ test.json
 /vectorized_representations/
 /Data_Embedding/*
 !/Data_Embedding/
+
+/logs/*
+/results/*

@@ -71,7 +71,7 @@ if __name__ == "__main__":
     parser.add_argument("--val_data", required = True, help = "path to validation data")
     parser.add_argument("--test_data", required=True, help = "path to test data")
     parser.add_argument('--do_train', action='store_true')
-    parser.add_argument("--trial", type=int, required=True, help="trial number")
+    parser.add_argument("--trial", type=int, required=False, default=1, help="trial number")
     args = parser.parse_args()
 
     # fix random seeds
@@ -134,7 +134,7 @@ if __name__ == "__main__":
 
                     # Look up word embedding dictionary
                     vectors = [word_embedding[i.lower()] if i.lower() in word_embedding.keys() else word_embedding['unk'] for i in input_words ]
-
+                    
                     # Transform the input into required shape
                     vectors = np.array(vectors)
                     vectors = torch.tensor(vectors).view(len(vectors), 1, -1).to(device)
