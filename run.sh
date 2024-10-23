@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Model names to test
-model_names=("rnn","ffnn")
+model_names=("rnn" "ffnn")
 
 # Hidden dimensions to test
 hidden_dims=(16 32 64 128 256)
@@ -15,7 +15,8 @@ test_data="new_data_splits/new_test.json"
 epochs=10
 
 for model_name in "${model_names[@]}"
-    for trial in {1,2,3,4,5} # trial number determines the random seed (41 + trial #)
+do
+    for trial in {1..5} # trial number determines the random seed (41 + trial #)
     do
         for hidden_dim in "${hidden_dims[@]}"
         do
